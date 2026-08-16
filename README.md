@@ -54,6 +54,7 @@ Read the page that matches the decision in front of you. Follow its links rather
 ### Hire and assess
 
 - [Candidate assessment process](docs/hiring/assessment-process.md)
+- [Candidate work sample checklist](docs/hiring/candidate-work-sample-checklist.md)
 - [Candidate scorecard](docs/hiring/candidate-scorecard.md)
 - [Product work sample: Booking to Tenant](docs/hiring/product-work-sample.md)
 - [Optional technical exercise: Booking Action List](docs/hiring/technical-exercise.md)

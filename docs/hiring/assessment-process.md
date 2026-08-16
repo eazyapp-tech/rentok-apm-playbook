@@ -112,6 +112,8 @@ Do not send the work sample merely to complete the process. Stop when the applic
 
 Give every continuing candidate the same [Booking to Tenant work sample](product-work-sample.md), product links, fictional evidence, time limit, and submission rules.
 
+Use the [candidate work sample checklist](candidate-work-sample-checklist.md) to prepare access, run the time box, handle blockers, and record the cross-check after the exercise.
+
 The candidate explores the real RentOk product for up to one hour within the four-hour limit. They may use notes, the internet, AI, and other tools. AI is optional and does not receive extra credit.
 
 Before sending the exercise:

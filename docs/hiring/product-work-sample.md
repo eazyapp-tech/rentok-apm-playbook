@@ -49,11 +49,13 @@ If you continue without product access, replace the requested product observatio
 
 RentOk helps paying guest accommodations, hostels, and rental properties manage bookings, rooms, tenants, payments, and communication.
 
-A **booking** means that a property has agreed to reserve a place for someone.
+A **booking** is a tenant record created for someone with a future joining date. It remains a booking until RentOk activates it through the property's configured process.
 
-An **active tenant** should mean someone who has moved in and should now be part of the property's normal tenant operations.
+An **active tenant** is a tenant record that the property has accepted into its normal tenant operations.
 
 The **joining date** is the person's planned move-in date.
+
+In this exercise, a future joining date normally indicates a booking. When that date arrives, the property may activate it automatically or require confirmation, depending on its settings and operating process. A booking can remain pending after that date if confirmation is still required.
 
 Different properties do not agree on when an approved booking should become an active tenant.
 
