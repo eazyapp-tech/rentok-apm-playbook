@@ -7,9 +7,10 @@ Complete this inside the candidate's private Notion record after the evidence is
 3. **Strongest evidence:**
 4. **Main risk:**
 5. **Missing evidence:**
-6. **AI capability:** Not observed, 1, 2, 3, or 4, with one line of evidence.
-7. **Technical signal:** Not observed, Useful, or Strong.
-8. **Next action:** one owner and one step.
+6. **Uxcel:** score, reliability, and one useful observation.
+7. **AI capability:** Not observed, 1, 2, 3, or 4, with one line of evidence.
+8. **Technical signal:** Not observed, Useful, or Strong.
+9. **Next action:** one owner and one step.
 
 ---
 

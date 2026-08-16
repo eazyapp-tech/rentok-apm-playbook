@@ -22,4 +22,10 @@ This file records changes to the role, assessment, onboarding, working rules, an
 - added human accountability, risk-based checking, and safe AI handling
 - added AI development to onboarding and the first 90 days without creating an activity quota
 - recorded the benchmark evidence, RentOk decisions, guardrails, and revisit conditions
+- added the free Uxcel Product Management assessment as a supporting baseline without a hiring cutoff
+- rebuilt the Booking to Tenant exercise as a take-home planned for about three hours, with a hard four-hour limit and independent RentOk exploration
+- added public web, app store, and tutorial links with safe test-data and access-fallback rules
+- replaced the separate hypothetical AI follow-up with questions about the candidate's actual work and checking
+- expanded the work-sample discussion to 60 minutes and added one standard piece of new information
+- simplified the main scorecard to five required areas and kept Uxcel, AI, and technical ability as separate signals
 - kept matching Notion pages unchanged pending final review of this GitHub draft

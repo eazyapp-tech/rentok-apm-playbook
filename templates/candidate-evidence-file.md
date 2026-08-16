@@ -55,13 +55,13 @@ Record the evidence, not only the conclusion.
 For each question, state the claim or risk it tests.
 
 1.
-2.
-3.
 
 ## Assessment results
 
 Add dated evidence after each stage. Keep facts separate from interpretation.
 
+- **Uxcel score and reliability:**
+- **Uxcel areas worth probing:**
 - **Using AI in Product work:**
 - **Technical signal:**
 
@@ -72,6 +72,7 @@ Add dated evidence after each stage. Keep facts separate from interpretation.
 - **Strongest evidence:**
 - **Main risk:**
 - **Missing evidence:**
+- **Uxcel:**
 - **AI capability:**
 - **Technical signal:**
 - **What would change this recommendation:**

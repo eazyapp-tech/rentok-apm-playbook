@@ -1,133 +1,163 @@
 # Product work sample: Booking to Tenant
 
-**For:** Candidates and assessors
+**For:** Candidates
 
 ## What this exercise is for
 
-This exercise is about how you understand an unclear product situation, make a decision, and help the work move.
+This exercise helps us understand how you explore an unfamiliar product, make a Product decision with incomplete information, and help a team move the work forward.
 
-You do not need prior knowledge of RentOk or property management. The information below is enough to begin. Ask questions when the answer could change your recommendation. Make and state a reasonable assumption when it would not.
+You do not need prior knowledge of RentOk or property management. The links and information below are enough to begin.
+
+This is an unpaid hiring exercise that uses the real RentOk product. Customer names and assessment figures are fictional. The exercise is used only to understand how you work. You are not being asked to implement or ship your recommendation.
 
 ## Time and format
 
-- You have 90 minutes.
-- You may use the internet, notes, and AI tools. Use AI if it helps, but you do not have to. We will judge the work and your reasoning, not whether you used AI.
-- Keep your response to two pages or less.
-- We will discuss your answer for 20 minutes afterwards.
+- Plan for about three hours. Stop after four hours even if you have not finished. We will not reward extra time.
+- Spend no more than one hour exploring RentOk. This is part of the four-hour limit.
+- Submit one document of no more than four A4 pages using a normal readable font.
+- Tables and diagrams count within the four pages. Do not add an appendix.
+- Slides, polished UI, prototypes, and code are not required.
+- AI is optional. Using or not using it will not receive extra credit.
+- You may use notes, internet research, AI, and other tools. Outside research is optional.
+- You remain responsible for checking everything you submit.
 
-We care more about a clear decision and a workable next step than presentation quality.
+You may send your recruiter up to three clarification questions before or during the exercise. Waiting for a reply does not count towards the four hours. If an answer is not available, state a reasonable assumption and continue.
 
-### Working-method note
+We will review your work and discuss it with you in a 60-minute call.
 
-After your response, add a short note of no more than five bullets. This note does not count toward the two-page limit.
+## Explore RentOk first
 
-1. What tools and sources did you use?
-2. Where, if anywhere, did you use AI?
-3. What did you check independently?
-4. What did you change or reject?
-5. What would you improve with more time?
+Use either the web app or the RentOk Manager mobile app:
 
-The note is not scored separately. It helps us understand how you worked and ask better questions.
+- [RentOk Manager web app](https://manager.rentok.com/)
+- [RentOk Manager on Google Play](https://play.google.com/store/apps/details?id=net.eazypg.eazypgmanager)
+- [RentOk website and mobile app links](https://rentok.com/)
+- [RentOk University](https://docs.rentok.com/), if a tutorial would help
+- [Guide to bookings and upcoming tenants](https://rentok.com/blogs/market-trends/how-to-track-booking-and-upcoming-tenants), if useful
+
+Try creating or accessing a test account using one of the login options shown. The login may require your phone, email, or Google account. Use only a method you are comfortable with. If you do not want to use a personal login, ask your recruiter for a clean individual test account before starting. Enter an OTP only on the official RentOk login screen. Never send an OTP or password to any person, including a recruiter or RentOk employee.
+
+Use fictional names and business information. If the product asks for contact details, use only a phone number or email address you control, or test details provided by the recruiter. RentOk may send automatic messages to contact details you enter. Never enter another person's real contact details. Do not make a payment, send a payment request, or manually send a message.
+
+Focus on understanding how a booking moves towards becoming an active tenant. Try creating a fictional property, room, and booking. You do not need to explore the whole product.
+
+If you cannot access the product after 15 minutes, stop your timer and tell your recruiter. Resume only after receiving a clean individual test account or confirmation that you should continue with the information below. You will still have the rest of your four-hour limit.
+
+If you continue without product access, replace the requested product observations with what you tried, where you were blocked, and two things you would inspect with access. An access problem will not count against you.
 
 ## The situation
 
-RentOk helps people manage bookings and tenants across PGs, hostels, and rental properties.
+RentOk helps paying guest accommodations, hostels, and rental properties manage bookings, rooms, tenants, payments, and communication.
 
-Today, an approved booking automatically becomes an active tenant on its joining date. The tenant then receives the normal welcome and check-in messages.
+A **booking** means that a property has agreed to reserve a place for someone.
 
-This saves work for many properties. It also causes trouble for properties where the joining date does not mean the person is ready to move in.
+An **active tenant** should mean someone who has moved in and should now be part of the property's normal tenant operations.
 
-All names and numbers in this exercise are fictional. The situation is based on real product patterns.
+The **joining date** is the person's planned move-in date.
 
-## What customers are saying
+Different properties do not agree on when an approved booking should become an active tenant.
 
-### Sunrise Student Home
+Some properties value automatic activation because it saves daily work. Others want payment, room readiness, or physical arrival to be confirmed first. Activating someone too early creates confusion. Requiring manual action can create a different problem when staff forget to activate someone who has moved in.
 
-> We have 800 beds. A student should become active only after the remaining deposit is paid and the warden confirms arrival. Last week two students became active automatically. Their parents received welcome messages before payment was complete. The front desk then had to explain why the room was not ready.
+RentOk needs to decide what to improve in the next release.
+
+## The information you have
+
+### Customer Success note
+
+> We received 18 reports in the last 30 days about tenants becoming active before the property considered them ready. Four large student hostels accounted for 14 of those reports. Welcome messages had already been sent in several cases, which made the situation harder to explain.
+
+Customer Success wants the problem fixed quickly. The team does not know how many properties experienced the same problem without contacting support.
 
 ### Maple Stay
 
-> We have 120 beds. The joining dates are usually correct. Automatic conversion saves us from doing the same work every day. Please do not make every move-in manual.
+> We have 120 beds. Our joining dates are normally correct. Automatic activation saves our staff from doing the same work every day. Please do not add another required step for every arrival.
+
+### Recent Product data
+
+| Observation | Number |
+|---|---:|
+| Approved bookings that reached their joining date | 420 |
+| Automatically activated without a reported problem | 402 |
+| Reported cases of activation happening too early | 18 |
+| Bookings left pending for more than one day during a separate manual test | 9 |
+| Pending cases discovered only after the tenant contacted the property | 3 |
+
+These figures are exercise data. Support reports do not necessarily show every problem.
+
+### Sunrise Student Home
+
+> We have 800 beds. A student should become active only after the remaining deposit is paid and the warden confirms arrival. Last week, two students became active before their rooms were ready. Their parents had already received welcome messages.
+
+### Engineering note
+
+> The current automatic activation rule does not use a dependable signal for payment completion, room readiness, or physical arrival. The team can make one focused improvement in the next three weeks. It cannot build a large system covering every readiness rule in this release.
 
 ### CityNest Living
 
-> We run six properties. The back office approves bookings, but wardens handle arrival. Some properties need manual confirmation and some do not. One rule for the entire company will not work.
-
-## What the team knows
-
-### Customer Success
-
-- Eighteen support cases in the last 30 days involved a tenant becoming active too early.
-- Four large student hostels accounted for fourteen of those cases.
-- Wrong welcome messages create confusion and are difficult to explain after they have been sent.
-- Customer Success wants a quick fix.
-
-### Product data
-
-- 420 approved bookings reached their joining date in the last 30 days.
-- 402 converted automatically without a reported problem.
-- In a small manual trial, nine bookings remained pending for more than one day after their joining date.
-- Three of those nine were noticed only when the tenant contacted the property.
-
-These figures are exercise data, not RentOk production data.
-
-### Engineering
-
-- Turning automatic conversion off for everyone would be the quickest technical change.
-- The current Add as Tenant process can be reused when a move-in needs a person to confirm it.
-- The product can support one small difference in behaviour between properties within the next release.
-- Changing a joining date to today or an earlier date can activate a tenant through a separate path.
-- The team has capacity for one focused change in the next three weeks. A large system covering payment, KYC, and every readiness rule is not realistic now.
-
-### Design
-
-- The current journey does not give a manager a clear waiting state when an approved booking does not become an active tenant.
-- It does not show who should act when the joining date has passed.
-- There is no agreed design for old bookings when behaviour changes.
-
-### QA
-
-- Approved bookings remain visible in the Bookings list.
-- There is no home-screen reminder for a manual move-in that has been missed.
-- QA is concerned that preventing early activation could create another problem where real move-ins are forgotten.
+> We run six properties. Our back office approves bookings, but wardens handle arrivals. Our properties do not all handle move-ins in the same way.
 
 ## Your task
 
-Prepare a short note with these sections.
+Explore the current RentOk journey and recommend what RentOk should improve in the next release.
 
-### 1. What I understood
+We are not looking for one predetermined answer. We want to understand how you use evidence, handle missing information, make a decision, and help the team move towards release.
 
-What is the real problem? Who is affected? Where do the needs differ?
+Include these five parts.
 
-### 2. What I recommend
+### 1. What you found and what you recommend
 
-What should RentOk do in the next release? Explain why.
+Explain:
 
-### 3. What I would not do now
+- what you tried in RentOk and which platform you used
+- two or three observations from the product that affected your thinking
+- what you believe the real problem is and who is affected
+- what you recommend and why
+- what you would deliberately leave out of the first release
 
-What would you deliberately leave out of this release?
+Separate what you observed from what you assumed. Screenshots are optional. Remove any personal information before including one.
 
-### 4. What needs to be decided or checked
+### 2. How it should work
 
-List only the questions that could materially change your recommendation. State your current assumption beside each one.
+Show the important steps and possible booking statuses in a simple journey.
 
-### 5. What happens next
+Include the most important cases where the journey could fail or become confusing. A rough diagram, table, or bullet list is enough.
 
-Show the order of work. Include the people who need to be involved, what must be ready before development, how the change should be tested, and what should be checked after release.
+### 3. How you would move it towards release
 
-### 6. Team update
+Explain:
 
-Write a short update for the Product Lead and Engineering Manager. State the recommendation, main risk, decision needed, and next action.
+- what still needs to be checked or decided
+- the assumptions you are making
+- who needs to be involved and what needs to happen next
+- what must be tested before release
+- how you would release the change safely
+- what you would watch after release
 
-## What we will discuss afterwards
+### 4. A short team update
 
-Be ready to explain:
+In 150 words or less, write the message you would send to the team.
 
-- the evidence behind your recommendation
-- the trade-offs you accepted
-- the part you are least confident about
-- what you would do if new information challenged your answer
+Explain the recommendation, its main benefit and downside, the immediate decision needed, and the next action.
 
----
+### 5. How you worked
 
-[Back to the playbook](../../README.md) · [Previous: Candidate scorecard](candidate-scorecard.md) · [Next: Optional technical exercise](technical-exercise.md)
+In no more than five bullets, state:
+
+- how much time you spent
+- which tools and sources you used
+- whether and how you used AI
+- what information or tool output you checked, changed, or chose not to use
+- what remains uncertain or would benefit from more time
+
+You do not need to provide private AI conversations or complete prompt histories.
+
+## What happens afterwards
+
+We will ask you to explain your recommendation and the evidence behind it.
+
+We will also give you one additional piece of information and ask whether it changes your decision.
+
+Changing your recommendation after receiving useful evidence is not a weakness. We care about whether you can understand the new information and make the work stronger.
+
+Send your completed document using the method in your invitation.

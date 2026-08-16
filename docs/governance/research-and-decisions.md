@@ -24,7 +24,7 @@ Do not research ordinary wording choices. Stop when the evidence is sufficient t
 
 **External evidence:** Product Operations guidance from [Atlassian](https://www.atlassian.com/agile/product-management/product-operations) and [Aha!](https://www.aha.io/roadmapping/guide/product-management/what-is-product-operations) connects the role with reliable workflows, useful data, tools, and cross-team alignment.
 
-**RentOk decision:** The APM owns the flow from an understood problem to a checked result. They may recommend and make bounded decisions. Product leadership continues to own major priorities, strategy, large trade-offs, and unsafe or irreversible decisions until the APM has earned wider authority.
+**RentOk decision:** The APM owns the flow from an understood problem to a checked result. They may recommend and make small decisions with clear limits. Product leadership continues to own major priorities, strategy, large trade-offs, and unsafe or irreversible decisions until the APM has earned wider authority.
 
 **Guardrail:** Do not turn the role into a permanent coordinator or an unsupported "mini PM."
 
@@ -52,9 +52,39 @@ Do not research ordinary wording choices. Stop when the evidence is sufficient t
 
 **External evidence:** Linear and Notion place AI inside real workflows rather than treating it as an isolated prompt test. [U.S. Office of Personnel Management guidance](https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/) supports asking candidates consistent questions and using the same standards.
 
-**RentOk decision:** Encourage but do not require AI in the standard Product work sample. Ask every candidate for a short working-method note. Use the same guided critique only when AI learning evidence is otherwise missing. Keep the technical exercise separate and optional.
+**RentOk decision:** Allow but do not require AI in the standard Product work sample. Ask every candidate for a short working-method note. Discuss checking and accountability through the candidate's actual work. Do not add a separate prompt-writing or hypothetical AI exercise. Keep the technical exercise separate and optional.
 
 **Guardrail:** Do not require a paid tool, complete prompt history, or a separate prompt-writing examination.
+
+### Use a short knowledge baseline, not a knowledge gate
+
+**External evidence:** [Uxcel Pulse](https://help.uxcel.com/articles/9791268-what-is-pulse) uses 25 adaptive questions, normally takes about 25 minutes, and provides a Product Management Skill Graph and reliability score.
+
+**RentOk inference:** A short external assessment can expose areas worth discussing. It cannot show whether someone will take ownership, work through an unclear RentOk problem, or finish the work reliably.
+
+**RentOk decision:** Ask candidates who pass application review to complete the free Uxcel Product Management assessment before the recruiter screen. Record the result as a supporting signal. Do not use an automatic cutoff or let the score replace practical evidence.
+
+**Guardrail:** Continue when access fails or when strong practical evidence makes the result worth probing rather than treating mechanically.
+
+### Assess Product work through a realistic, time-boxed simulation
+
+**External evidence:** [Lenny Rachitsky's PM interview guide](https://www.lennysnewsletter.com/p/how-to-interview-product-managers) recommends a time-boxed Product project followed by discussion and notes that the discussion can be more useful than the submitted answer. [Stripe Atlas](https://stripe.com/en-ca/guides/atlas/recruiting-hiring-and-managing-talent) recommends hypothetical work products and warns against creating the impression that a company is taking free labour. [Linear](https://linear.app/now/how-we-hire-at-linear), [PostHog](https://newsletter.posthog.com/p/everything-weve-learned-about-hiring), and [Automattic](https://automattic.com/how-we-hire/) use realistic work simulations. Their longer or real-work trials are paid.
+
+**RentOk inference:** Interviews alone favour people who present well. A time-limited work sample gives better evidence of exploration, judgment, execution, writing, checking, and response to new information. A short unpaid exercise must remain clearly different from a paid work trial.
+
+**RentOk decision:** Use one standard Booking to Tenant case. Candidates may spend up to four hours, including up to one hour exploring the public RentOk product. The submission is capped at four pages and is followed by a 60-minute discussion. Customer names and assessment figures remain fictional. Candidates are not asked to implement or ship the recommendation.
+
+**Guardrail:** Do not reward extra time, presentation polish, hidden product familiarity, or the number of screens found. Do not use a shared account. Provide a clean fallback account or equivalent evidence pack when access fails. Use fictional names and business information. A candidate using self-access may receive automatic messages only through contact details they control. Never ask candidates to enter another person's real contact details, make a payment, send a payment request, or manually send a message. Disable outbound messages and payments in recruiter-provided accounts.
+
+**Revisit when:** Three to five candidates have completed the exercise, more than one candidate is blocked by access, candidates regularly exceed four hours, the work does not separate stronger and weaker judgment, or candidate feedback shows that the task is unclear or excessive.
+
+### Use the discussion to test revision, not defence
+
+**External evidence:** Lenny's PM interview guidance treats the discussion around the project as a major source of signal. [U.S. Office of Personnel Management guidance](https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/) supports consistent questions and standards.
+
+**RentOk decision:** Give every candidate the same additional fact during a structured 60-minute discussion. Ask what changes and why. Score whether the candidate understands the new evidence, preserves sound reasoning, and adjusts the right part of the plan.
+
+**Guardrail:** Do not reward immediate agreement, confident defence, or adding more features. A good revision can be small.
 
 ### The human remains responsible
 
@@ -64,7 +94,7 @@ Do not research ordinary wording choices. Stop when the evidence is sufficient t
 
 **Guardrail:** Serious dishonesty, unsafe handling of information, or repeated unchecked use affects judgment, reliability, or integrity. Ordinary inexperience remains coachable.
 
-### AI development is expected, but usage is not a KRA
+### AI development is expected, but AI usage is not a separate performance target
 
 **External evidence:** [Notion's internal agent examples](https://www.notion.com/en-gb/blog/how-notion-uses-custom-agents) and [Atlassian's team workflow guidance](https://www.atlassian.com/blog/teamwork/ai-insights-january-2026) focus on recurring work, shared context, coordination, and outcomes.
 
