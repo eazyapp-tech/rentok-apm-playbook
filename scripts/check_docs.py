@@ -13,10 +13,12 @@ TEXT_FILES = [
     *ROOT.rglob("*.yaml"),
 ]
 SKIP_PARTS = {".git"}
-PRIVATE_TERMS = (
-    "Abhinav Raj",
-    "Lakshay Kapoor",
+EMAIL_PATTERN = re.compile(
+    r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b",
+    re.IGNORECASE,
 )
+PHONE_PATTERN = re.compile(r"(?<!\d)(?:\+?91[ -]?)?[6-9]\d{9}(?!\d)")
+COMPLETED_NAME_PATTERN = re.compile(r"\*\*Name:\*\*[ \t]+\S")
 
 
 def relevant(path: Path) -> bool:
@@ -42,11 +44,14 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         if "—" in text or "–" in text:
             errors.append(f"{path.relative_to(ROOT)}: contains an em dash or en dash")
-        for term in PRIVATE_TERMS:
-            if term in text:
-                errors.append(
-                    f"{path.relative_to(ROOT)}: contains private candidate name {term}"
-                )
+        if EMAIL_PATTERN.search(text):
+            errors.append(f"{path.relative_to(ROOT)}: contains an email address")
+        if PHONE_PATTERN.search(text):
+            errors.append(f"{path.relative_to(ROOT)}: contains a phone number")
+        if COMPLETED_NAME_PATTERN.search(text):
+            errors.append(
+                f"{path.relative_to(ROOT)}: appears to contain a completed candidate name"
+            )
         errors.extend(check_links(path, text))
 
     if errors:
