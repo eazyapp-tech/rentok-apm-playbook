@@ -11,6 +11,7 @@ Do not make either place a full copy of the other. That creates stale pages and 
 ## Put this in GitHub
 
 - the role definition and job description
+- the reusable internal hiring brief
 - the standard assessment process
 - blank scorecards and templates
 - candidate-facing exercises with fictional data
@@ -22,7 +23,7 @@ Do not make either place a full copy of the other. That creates stale pages and 
 
 ## Keep this in Notion
 
-- recruiter messages and hiring coordination
+- sent recruiter messages and live hiring coordination
 - candidate names, email addresses, phone numbers, and resumes
 - portfolios linked to a candidate record
 - completed scorecards and evidence files

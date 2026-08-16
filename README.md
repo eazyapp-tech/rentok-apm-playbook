@@ -34,7 +34,7 @@ The useful output is not a busy Jira board. It is a clear decision, owned next s
 
 | You are | Start here |
 |---|---|
-| Hiring manager or recruiter | [Job description](docs/role/job-description.md), then [assessment process](docs/hiring/assessment-process.md) |
+| Hiring manager or recruiter | [Internal hiring brief](docs/role/message-to-srijan.md), then [job description](docs/role/job-description.md) and [assessment process](docs/hiring/assessment-process.md) |
 | Interviewer | [Candidate scorecard](docs/hiring/candidate-scorecard.md), then the relevant exercise |
 | Candidate | [Job description](docs/role/job-description.md), then the exercise shared with you |
 | New APM | [Starting the role](docs/working/starting-the-role.md), then [first 90 days](docs/working/first-90-days.md) |
@@ -46,6 +46,7 @@ Read the page that matches the decision in front of you. Follow its links rather
 
 ### Understand the role
 
+- [Internal hiring brief: Message to Srijan](docs/role/message-to-srijan.md)
 - [Associate Product Manager job description](docs/role/job-description.md)
 - [Starting the role](docs/working/starting-the-role.md)
 - [KRAs and success review](docs/working/success-review.md)
@@ -170,7 +171,7 @@ Open a pull request that names the decision or repeated problem the change impro
 docs/
   governance/   Information boundaries, research, and decisions
   hiring/       Assessment process, scorecard, and exercises
-  role/         The candidate-facing role definition
+  role/         The internal hiring brief and candidate-facing role definition
   working/      Onboarding, operating rhythm, decisions, and success
 templates/      Blank working templates. Never completed candidate files
 data/           Fictional exercise data

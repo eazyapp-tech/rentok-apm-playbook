@@ -15,6 +15,7 @@ This file records changes to the role, assessment, onboarding, working rules, an
 ### Changed
 
 - separated using AI in Product work from optional technical ability
+- added the updated internal message to Srijan for review
 - made current AI maturity an assessed signal rather than an automatic hiring gate
 - added a working-method note and a guided follow-up for missing AI learning evidence
 - renamed the technical exercise and removed AI from its purpose
