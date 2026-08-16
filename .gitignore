@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.key
+*.pem
+candidates/
+private/
+*Resume*
+*resume*
+*Candidate Evidence File*

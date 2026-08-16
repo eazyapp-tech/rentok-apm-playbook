@@ -1,0 +1,16 @@
+booking_id,property,status,joining_date,auto_convert,payment_status,last_updated,welcome_message_sent
+B001,Sunrise Student Home,approved,2026-08-19,OFF,paid,2026-08-18,no
+B002,Maple Stay,approved,2026-08-20,ON,paid,2026-08-20,no
+B003,Maple Stay,active,2026-08-20,ON,paid,2026-08-20,yes
+B004,CityNest Living,approved,2026-08-15,ON,paid,2026-08-15,no
+B005,CityNest Living,pending,2026-08-18,OFF,partial,2026-08-18,no
+B006,Sunrise Student Home,approved,2026-08-25,OFF,unpaid,2026-08-17,no
+B007,Sunrise Student Home,approved,,OFF,paid,2026-08-18,no
+B008,Maple Stay,cancelled,2026-08-19,ON,paid,2026-08-19,no
+B009,CityNest Living,approved,not-a-date,ON,paid,2026-08-18,no
+B010,Sunrise Student Home,approved,2026-08-10,OFF,paid,2026-08-10,yes
+B010,Sunrise Student Home,active,2026-08-10,OFF,paid,2026-08-11,yes
+B011,Maple Stay,active,2026-08-18,ON,paid,2026-08-18,no
+B012,Maple Stay,approved,2026-08-24,ON,unpaid,2026-08-18,no
+B013,CityNest Living,approved,2026-08-17,OFF,partial,2026-08-17,no
+B014,CityNest Living,approved,2026-08-18,OFF,paid,2026-08-19,no
