@@ -11,12 +11,23 @@ You do not need prior knowledge of RentOk or property management. The informatio
 ## Time and format
 
 - You have 90 minutes.
-- You may use the internet, notes, and AI tools.
+- You may use the internet, notes, and AI tools. Use AI if it helps, but you do not have to. We will judge the work and your reasoning, not whether you used AI.
 - Keep your response to two pages or less.
 - We will discuss your answer for 20 minutes afterwards.
-- If you use AI or another tool, add one line saying what you used it for.
 
 We care more about a clear decision and a workable next step than presentation quality.
+
+### Working-method note
+
+After your response, add a short note of no more than five bullets. This note does not count toward the two-page limit.
+
+1. What tools and sources did you use?
+2. Where, if anywhere, did you use AI?
+3. What did you check independently?
+4. What did you change or reject?
+5. What would you improve with more time?
+
+The note is not scored separately. It helps us understand how you worked and ask better questions.
 
 ## The situation
 
@@ -119,4 +130,4 @@ Be ready to explain:
 
 ---
 
-[Back to the playbook](../../README.md) · [Previous: Candidate scorecard](candidate-scorecard.md) · [Next: Technical and AI exercise](technical-and-ai-exercise.md)
+[Back to the playbook](../../README.md) · [Previous: Candidate scorecard](candidate-scorecard.md) · [Next: Optional technical exercise](technical-exercise.md)

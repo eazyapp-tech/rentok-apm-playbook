@@ -12,7 +12,11 @@ The process must answer:
 4. Can this person learn enough to take on more judgment over time?
 5. What is the right entry route if we hire them?
 
-Technical and AI ability is recorded separately. It cannot rescue weak evidence on the main job.
+Using AI in Product work and technical ability are recorded separately.
+
+Current AI experience is useful, but it is not an automatic hiring gate. Look for thoughtful use, curiosity, safe handling of information, checking, and the ability to learn through real work.
+
+Technical ability is optional. Neither capability can rescue weak evidence on the main job.
 
 ## Stage 1: application review
 
@@ -90,6 +94,14 @@ Useful probes:
 - What changed in your next piece of work?
 - What shows that the change lasted?
 
+### Using AI in Product work
+
+Ask one short question:
+
+> Tell me about a real task where AI helped you think, write, check, organise, or follow work through. What did you accept, reject, and verify?
+
+If the candidate has little experience, ask where they would try it in everyday Product work and what they would check before relying on the result. Do not turn this into a test of tool names or prompt vocabulary.
+
 ### How to use candidate-specific questions
 
 Choose no more than three before the interview. Use them to test the largest claims or risks in the candidate's evidence file.
@@ -108,7 +120,9 @@ Do not give a work sample merely to complete the process.
 
 Give every continuing candidate the same booking-to-tenant exercise and the same instructions.
 
-The candidate may use notes, the internet, and AI tools. Score the decision and the plan, not the appearance of the document.
+The candidate may use notes, the internet, and AI tools. AI use is encouraged when helpful, but it is not required. Judge the work and reasoning, not whether the candidate used AI or how polished the document looks.
+
+Every candidate also submits the short working-method note in the exercise. Do not score the note separately. Use it to understand the candidate's Product judgment, AI use, learning, honesty, and checking.
 
 A strong answer should usually notice that:
 
@@ -138,9 +152,29 @@ Then ask:
 
 Look for whether new evidence changes the answer rather than only making it longer.
 
-## Stage 4: technical and AI exercise
+Review the working-method note. Ask what the candidate checked independently and what they changed or rejected. A polished explanation is not evidence by itself. Compare it with the submitted work and the candidate's answers.
 
-Use this only after the candidate meets the main job level.
+### Guided AI follow-up when evidence is missing
+
+Use this only when the rest of the assessment has not shown how the candidate thinks about AI-assisted work. Keep it to 10 to 15 minutes. It is not a second scored exercise.
+
+Ask the candidate to assume the following draft was produced with AI:
+
+> Turn off automatic booking conversion for every property. This will stop tenants from becoming active too early. Engineering says this is the fastest change, so it should be released immediately. Customer Success can tell properties about the change. Track support tickets after release to confirm that the problem is solved.
+
+Ask:
+
+1. What is useful here?
+2. What would you question?
+3. What would you verify?
+4. What would you change?
+5. How might you use AI differently on the next attempt?
+
+Record the evidence under `Using AI in Product work`. Do not reject someone merely because they have not used a particular tool before.
+
+## Stage 4: optional technical exercise
+
+Use this only after the candidate meets the main job level and when a technical claim or possible strength is relevant to the decision.
 
 Give the fictional booking data exercise. Allow any suitable tool. Ask for a usable action list, the method, the uncertain records, and instructions another person can follow tomorrow.
 
@@ -153,7 +187,7 @@ A strong result:
 - produces something another person can reuse
 - explains assumptions and limits plainly
 
-Do not reward complexity. A correct spreadsheet can be better than an unfinished application.
+Do not reward complexity. A correct spreadsheet can be better than an unfinished application. Score only the technical method and reliability. AI ability is assessed through ordinary Product work, not through this exercise.
 
 ### Assessor check for the data exercise
 
@@ -188,13 +222,31 @@ First decide whether the candidate fits the APM job.
 Then decide the route:
 
 - Recommend the internship intended to convert when the candidate has strong potential but needs to prove consistent work in a real team and product setting.
-- Recommend direct full-time with normal probation when the candidate has repeated professional evidence of doing this job at the required level.
+- Recommend direct full-time when the candidate has repeated professional evidence of doing this job at the required level, even if their AI experience is still developing. This normally includes RentOk's probation terms.
 
 Probation does not replace assessment. Internship should not be used to underlevel an experienced candidate.
 
+AI experience does not decide the entry route. Any exception to normal probation should follow company policy and have a clear reason.
+
+### Decision aid
+
+Use this to prevent AI evidence from becoming either an unfair gate or an unfair shortcut. It guides judgment but does not replace it.
+
+| Overall evidence | AI evidence | Likely decision |
+|---|---|---|
+| Strong repeated Product experience | Limited experience, but curious and learns | Direct full-time, normally with probation |
+| Strong repeated Product experience | Thoughtful and established use | Direct full-time, normally with probation |
+| Strong early-career potential | Limited experience, but curious and learns | Internship intended to convert |
+| Strong early-career potential | Thoughtful use already demonstrated | Usually internship, unless the overall professional evidence supports direct full-time |
+| Weak ownership or Product judgment | Strong AI use | Do not hire merely because of AI ability |
+| Strong Product evidence | AI ability not observed | Gather limited evidence if useful, but do not reject automatically |
+| Any experience level | Repeated dishonesty, unsafe behaviour, or refusal to learn | Treat as a serious judgment or integrity concern |
+
+If the final decision differs from this guidance, record the evidence and reason.
+
 ## Finish every assessment
 
-Use the seven-line decision note in the candidate scorecard. Record the evidence, main risk, missing fact, technical signal, entry route, and one next action.
+Use the eight-line decision note in the candidate scorecard. Record the evidence, main risk, missing fact, AI capability, technical signal, entry route, and one next action.
 
 ---
 

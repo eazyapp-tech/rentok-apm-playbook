@@ -10,6 +10,8 @@ State the problem in one sentence:
 
 Then check whether an existing page should change. Prefer improving one source over adding a second version.
 
+For a material role or assessment decision, update the [research and decision log](docs/governance/research-and-decisions.md). Keep source facts, RentOk inferences, and RentOk decisions separate.
+
 ## Writing standard
 
 - Write from shared ground. A reader should not need the writer sitting beside them.
@@ -55,7 +57,7 @@ Include:
 - the problem this change solves
 - the pages affected
 - the source or experience behind the change
-- whether the matching Notion page was updated
+- whether the matching Notion page was updated or the sync is still pending
 - confirmation that no personal information was added
 
 ---

@@ -17,6 +17,7 @@ The main goal is to understand how RentOk works and become reliable on bounded w
 - Triage issues with guidance.
 - Keep selected work current and handle straightforward product questions.
 - Take part in UAT and learn how releases are checked.
+- Learn the approved AI tools and information-safety rules. Try them on bounded work when useful, and check the result with guidance.
 - Own one small piece of work from problem to follow-up.
 
 **Evidence at 30 days:** bounded work can be trusted without repeated reminders.
@@ -32,6 +33,7 @@ The main goal is to manage most of the product work around one problem or featur
 - Run product testing for the work.
 - Prepare the release and follow early user feedback.
 - Bring recommendations, not only questions.
+- Use AI thoughtfully in real Product work where it helps. Explain what you checked, changed, or rejected.
 
 **Evidence at 60 days:** the Product Lead does not need to join every conversation about the work.
 
@@ -45,6 +47,7 @@ The main goal is to take responsibility for a small product area or connected gr
 - Handle most normal product work independently.
 - Understand the customer and business effect of the decision.
 - Improve an existing workflow, not only add a feature.
+- Show that you can decide when AI helps, when it does not, and how to improve a repeatable way of working.
 - Review what happened after release and recommend the next step.
 
 **Evidence at 90 days:** the person can own a small area while keeping the Product Lead informed at the right points.
@@ -60,10 +63,15 @@ Before recommending conversion, ask:
 - Did they make work clearer for other people?
 - Did they show sound judgment when information was incomplete?
 - Did they learn from feedback and need less help over time?
+- Did they make useful progress in using AI carefully and taking responsibility for the result?
 - Can Design, Engineering, QA, and customer-facing teams work with them well?
 - Do both RentOk and the person want to continue?
 
 If one important area is still unproven, name the missing evidence and set a clear check. Do not hide it inside a vague extension.
+
+AI progress is not a separate pass or fail target. Limited current experience should not block conversion by itself.
+
+It becomes a concern when the person refuses to try, uses it carelessly, avoids checking important work, blames the tool, or does not change after clear feedback and support.
 
 ---
 

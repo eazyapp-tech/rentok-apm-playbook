@@ -13,7 +13,7 @@ We are looking for an **Associate Product Manager who likes taking responsibilit
 There are two possible entry routes for this role:
 
 - **Paid internship intended to convert to full-time:** usually for early-career candidates who show strong potential and want to prove themselves through real work.
-- **Direct full-time role with the normal probation period:** for candidates who already show enough relevant professional experience.
+- **Direct full-time role:** for candidates who already show enough relevant professional experience. This normally includes RentOk's probation period.
 
 The responsibilities are the same. The right route will depend on the evidence from the assessment and the candidate's experience.
 
@@ -54,13 +54,21 @@ You may be a good fit if you:
 
 You do not need to have held the Product Manager title before. Experience in engineering, a founder's office, operations, product operations, or another role with real ownership can be relevant.
 
-## Technical and AI ability
+## Using AI in everyday Product work
+
+We expect you to learn how to use available AI tools to make everyday Product work easier, better checked, and more systematic.
+
+You do not need to be an expert already. What matters is curiosity, thoughtful use, and responsibility for the final work.
+
+AI may help you understand a problem, explore options, improve a document, check your work, organise context, or build a repeatable way of working. You remain responsible for deciding when it helps, checking important outputs, and correcting mistakes.
+
+## Technical ability
 
 Coding is not required.
 
-Technical comfort is useful. This may include understanding APIs, using basic SQL, reading a simple implementation, making a prototype, automating a task, or using AI tools to complete useful work.
+Technical comfort is useful. This may include understanding APIs, using basic SQL, reading a simple implementation, making a prototype, or automating a task.
 
-We will value this ability separately. It does not replace ownership, communication, or product judgment.
+We record technical ability separately. It does not replace ownership, communication, or Product judgment.
 
 ## What this role is not
 

@@ -104,6 +104,25 @@ Use plain words. Explain necessary technical terms once. Keep one idea in one se
 
 Write the smallest useful document. A short decision note can be better than a long PRD. Important behaviour should still be written down.
 
+## How to use AI
+
+Use available AI tools when they make the work clearer, better checked, or more systematic. Useful applications may include understanding a problem, exploring options, improving a document, questioning assumptions, keeping context organised, or reducing repeated work.
+
+AI is a tool, not the owner of the work. If you submit, share, recommend, or act on an output, you are responsible for checking it and for what happens next.
+
+You cannot explain a mistake by saying that AI produced the work and you forgot to check it.
+
+Match the check to the possible harm:
+
+- Read and edit early thinking or a rough draft.
+- Check important claims, sources, assumptions, and calculations in research or analysis.
+- Check accuracy, tone, context, and consequences before sending customer communication or publishing work.
+- Independently verify work involving money, access, personal information, legal commitments, or production changes. Get the required approval before acting.
+
+Use approved tools and accounts for company work. Do not place customer, employee, financial, credential, or other sensitive information into an unapproved AI tool. Remove identifying information when full detail is not needed.
+
+You do not need to know every tool. You are expected to learn through real work, respond to feedback, and improve how you use AI over time.
+
 ## How independence should grow
 
 At first, you may ask whether your understanding is correct.
@@ -118,4 +137,4 @@ Your work should make the people around you less confused. After you become invo
 
 ---
 
-[Back to the playbook](../../README.md) · [Previous: Technical and AI exercise](../hiring/technical-and-ai-exercise.md) · [Next: First 90 days](first-90-days.md)
+[Back to the playbook](../../README.md) · [Previous: Optional technical exercise](../hiring/technical-exercise.md) · [Next: First 90 days](first-90-days.md)

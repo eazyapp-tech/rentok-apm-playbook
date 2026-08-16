@@ -57,13 +57,21 @@ Ask:
 
 For an intern being considered for conversion, use the same evidence. Completing the internship period by itself is not enough.
 
-## Technical and AI ability
+## Using AI in Product work
 
-Record this separately.
+Review this as a working capability, not as a separate activity target.
 
-It is useful when the person can use code, data, APIs, prototypes, automation, or AI tools to investigate a problem or complete useful work with less help.
+Look for whether the person uses AI to make everyday Product work clearer, better checked, or more systematic. Review whether they learn through real work, question outputs, protect sensitive information, and remain responsible for the result.
 
-It does not make up for weak ownership, poor communication, or careless product decisions.
+Do not count prompts, tools, generated documents, or time spent using AI. Limited current experience is not a failure by itself. A lack of progress matters when it shows refusal to learn, repeated carelessness, or weak accountability.
+
+AI ability does not make up for weak ownership, poor communication, or careless Product decisions.
+
+## Technical ability
+
+Record technical ability as an optional signal. It is useful when the person can use code, data, APIs, prototypes, or automation to investigate a problem or complete useful work with less help.
+
+Coding is not required. Technical strength does not make up for weak performance in the main job and should not lead the APM to take over Engineering's responsibilities.
 
 ## What not to reward by itself
 
@@ -72,6 +80,7 @@ It does not make up for weak ownership, poor communication, or careless product 
 - number of meetings attended
 - number of features released
 - technical complexity
+- number of AI tools or prompts used
 - activity without a clear result
 
 ---

@@ -1,19 +1,19 @@
-# Technical and AI Exercise: Booking Action List
+# Optional technical exercise: Booking Action List
 
 **For:** Candidates and assessors
 
 ## What this exercise is for
 
-Use the attached `booking-action-list-exercise.csv` file to create a clear action list for the product and operations team.
+Use the attached `booking-action-list-exercise.csv` file to create a clear action list for the Product and Operations team.
 
-We are testing whether you can use technical or AI tools to turn imperfect data into useful work. We are not testing whether you know a particular programming language.
+This optional exercise tests whether you can inspect imperfect data and turn it into reliable, reusable work. It is not required for every candidate, and we are not testing whether you know a particular programming language.
 
 All records are fictional.
 
 ## Time and tools
 
 - You have 45 minutes.
-- Use any tool you find useful, including spreadsheets, SQL, Python or AI tools.
+- Use any suitable tool, including a spreadsheet, SQL, Python, or another technical method.
 - You may ask questions, but continue with stated assumptions when an answer is not essential.
 
 Assume today is **20 August 2026**.
@@ -30,9 +30,9 @@ Assume today is **20 August 2026**.
 
 ## What to return
 
-1. An action list showing which records need attention, why, how urgent they are and what should happen next.
+1. An action list showing which records need attention, why, how urgent they are, and what should happen next.
 2. A short list of data problems or cases you could not decide safely.
-3. The file, query, script or steps you used to produce the result.
+3. The file, query, script, or steps you used to produce the result.
 4. A short note explaining how another person should use or rerun your work tomorrow.
 
 Do not build a polished application. Finish the useful part first.

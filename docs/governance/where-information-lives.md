@@ -17,6 +17,7 @@ Do not make either place a full copy of the other. That creates stale pages and 
 - onboarding and first 90-day guidance
 - working rhythm and decision rights
 - general examples with all personal details removed
+- the research and decision log for reusable hiring rules
 - change history and review rules
 
 ## Keep this in Notion
@@ -35,10 +36,11 @@ Some reusable pages may also be shown in Notion because that is where hiring wor
 
 For those pages:
 
-1. Make the approved change in the repository.
-2. Update the matching Notion page in the same piece of work.
-3. Check that the meaning still matches.
-4. Add a short changelog entry when the rule, decision, or expected action changed.
+1. Draft and review the change in the repository.
+2. Record `Notion sync pending` in the changelog while the matching page remains unchanged.
+3. Update the matching Notion page after the repository version is approved.
+4. Check that the meaning matches in both places.
+5. Update the changelog when the sync is complete.
 
 Do not copy candidate information into the repository while updating the shared page.
 

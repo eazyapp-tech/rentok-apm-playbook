@@ -6,7 +6,7 @@ It gives candidates, interviewers, managers, and new joiners one shared standard
 
 **This is a private working playbook. Do not add resumes, candidate notes, interview recordings, or personal information to this repository.**
 
-[Start here](#start-here) · [Role](#understand-the-role) · [Hiring](#hire-and-assess) · [Working at RentOk](#join-and-do-the-job) · [Templates](#use-the-templates) · [Notion](#what-lives-in-notion) · [Contributing](CONTRIBUTING.md)
+[Start here](#start-here) · [Role](#understand-the-role) · [Hiring](#hire-and-assess) · [Working at RentOk](#join-and-do-the-job) · [Templates](#use-the-templates) · [Decisions](docs/governance/research-and-decisions.md) · [Notion](#what-lives-in-notion) · [Contributing](CONTRIBUTING.md)
 
 ## What this playbook helps us do
 
@@ -55,7 +55,7 @@ Read the page that matches the decision in front of you. Follow its links rather
 - [Candidate assessment process](docs/hiring/assessment-process.md)
 - [Candidate scorecard](docs/hiring/candidate-scorecard.md)
 - [Product work sample: Booking to Tenant](docs/hiring/product-work-sample.md)
-- [Technical and AI exercise: Booking Action List](docs/hiring/technical-and-ai-exercise.md)
+- [Optional technical exercise: Booking Action List](docs/hiring/technical-exercise.md)
 - [Exercise data](data/booking-action-list-exercise.csv)
 
 ### Join and do the job
@@ -78,7 +78,21 @@ We are hiring for one job. The entry route depends on the evidence the candidate
 
 An early-career candidate may join through a paid internship intended to convert to full-time. Conversion depends on observed work. It is not promised only because the internship was completed.
 
-A candidate who already shows repeated evidence of doing the job can receive a direct full-time offer with RentOk's normal probation terms. Probation does not replace a proper assessment. An internship should not be used to underlevel an experienced candidate.
+A candidate who already shows repeated evidence of doing the job can receive a direct full-time offer. This normally includes RentOk's probation terms. Any exception should follow company policy and have a clear reason.
+
+Probation does not replace a proper assessment. An internship should not be used to underlevel an experienced candidate.
+
+AI experience does not decide the entry route. A candidate with strong Product evidence can receive a direct full-time offer while still learning how to use AI in everyday Product work.
+
+## How AI fits this role
+
+We expect the APM to learn how to use available AI tools to make everyday Product work easier, better checked, and more systematic.
+
+Current experience is useful, but it is not an automatic hiring gate. We care about curiosity, thoughtful use, safe handling of information, and useful progress through real work.
+
+AI may help do the work. It does not own the work. The person who submits, shares, recommends, or acts on an output remains responsible for checking it and for what happens next.
+
+Technical ability is recorded separately. Coding is not required.
 
 ## What lives in Notion
 
@@ -92,7 +106,7 @@ Notion holds:
 - interview notes and hiring decisions
 - archived page history
 
-This repository holds the reusable standard, templates, and change history. Read [Where information lives](docs/governance/where-information-lives.md) before adding a new kind of page.
+This repository holds the reusable standard, templates, change history, and [research and decision log](docs/governance/research-and-decisions.md). Read [Where information lives](docs/governance/where-information-lives.md) before adding a new kind of page.
 
 ## How this playbook should grow
 
@@ -118,7 +132,9 @@ No. Hiring is the first part because the role, assessment, onboarding, and perfo
 <details>
 <summary>Which copy is the source of truth?</summary>
 
-Use this repository for reusable playbook pages and version history. Use the Notion hub for live hiring operations and candidate records. If the same reusable page exists in both places, update both in the same change and record it in the changelog.
+Use this repository for reusable playbook pages and version history. Use the Notion hub for live hiring operations and candidate records.
+
+A repository draft may be reviewed before the matching Notion pages are updated. Record the pending sync in the changelog. The change is fully rolled out only after both places match.
 </details>
 
 <details>
@@ -152,7 +168,7 @@ Open a pull request that names the decision or repeated problem the change impro
 
 ~~~text
 docs/
-  governance/   What belongs here and what stays private
+  governance/   Information boundaries, research, and decisions
   hiring/       Assessment process, scorecard, and exercises
   role/         The candidate-facing role definition
   working/      Onboarding, operating rhythm, decisions, and success

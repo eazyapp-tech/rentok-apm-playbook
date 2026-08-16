@@ -62,6 +62,9 @@ For each question, state the claim or risk it tests.
 
 Add dated evidence after each stage. Keep facts separate from interpretation.
 
+- **Using AI in Product work:**
+- **Technical signal:**
+
 ## Current recommendation
 
 - **Decision:** Strong yes, Yes, Hold, or No
@@ -69,6 +72,8 @@ Add dated evidence after each stage. Keep facts separate from interpretation.
 - **Strongest evidence:**
 - **Main risk:**
 - **Missing evidence:**
+- **AI capability:**
+- **Technical signal:**
 - **What would change this recommendation:**
 - **Next action:**
 
